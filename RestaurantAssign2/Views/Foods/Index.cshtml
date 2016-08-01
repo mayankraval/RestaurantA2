@@ -40,7 +40,9 @@
                                 @Html.DisplayFor(modelItem => item.type)
                             </td>
                             <td>
-                                @Html.DisplayFor(modelItem => item.name)
+                                @Html.DisplayFor(modelItem => item.name) <br />
+                                <a href="~/Foods/Details/@item.foodID"><img src="../img/@Html.DisplayFor(modelItem => item.type)/@Html.DisplayFor(modelItem => item.image)" height="150" width="150" /> </a>
+                                
                             </td>
                             <td>
                                 @Html.DisplayFor(modelItem => item.description)
