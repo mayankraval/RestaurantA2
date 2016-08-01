@@ -159,7 +159,12 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="img\appetizers\Chicken-Pakora-1.jpg" />
+    <Content Include="img\appetizers\mutton-rolls.jpg" />
+    <Content Include="img\appetizers\Vegge-Pakora.jpg" />
     <Content Include="img\cover1.jpg" />
+    <Content Include="img\soup\Daal-Soup.jpg" />
+    <Content Include="img\soup\Mulagatawny-Soup.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="fonts\FontAwesome.otf" />
