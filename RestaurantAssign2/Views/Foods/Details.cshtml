@@ -15,7 +15,13 @@
                         <tr><td><b> Description :</b> @Html.DisplayFor(model => model.description)</td></tr>
                         <tr><td>Price : $@Html.DisplayFor(model => model.price)</td></tr>
                         <tr><td>Quatity : <input style="color:black;" type="number" name="quantity" min="1" max="5" value="1"></td></tr>
-                    <tr><td colspan="2"><input type="submit" value="Add to Cart" class="btn btn-default" /></td></tr>
+                    <tr><td>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.foodID }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</td><td><input type="submit" value="Add to Cart" class="btn btn-default" /></td>
+                   </tr>
                 </table>
                 @*<div>
                     <h4>Food Description</h4>
@@ -63,10 +69,7 @@
 
                     </dl>
                 </div>*@
-                <p>
-                    @Html.ActionLink("Edit", "Edit", new { id = Model.foodID }) |
-                    @Html.ActionLink("Back to List", "Index")
-                </p>
+                
             </div>
         </div>
         </div>
