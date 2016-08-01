@@ -8,13 +8,13 @@ body {
      background-size:cover;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    position: relative;
+    
   }
 
 
 html, body {
-     width: 100%;
-     overflow-x: hidden;
+     min-width: inherit;
+     position: relative;
   }
 
 h1, h2, h3, h4 {
@@ -85,15 +85,6 @@ preloader section
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-flex-flow: row nowrap;
-        -ms-flex-flow: row nowrap;
-            flex-flow: row nowrap;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
     background: none repeat scroll 0 0 #fff;
 }
 .sk-spinner-circle.sk-spinner {
@@ -267,14 +258,13 @@ navigation section
 home section
 ========================================================================== */
 #home {
+    margin-top:5%;
   background-size: cover;
   background-position: center;
   color: #ffffff;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   align-items: center;
-  height: 100vh;
   text-align: center;
 }
 #home h1 {

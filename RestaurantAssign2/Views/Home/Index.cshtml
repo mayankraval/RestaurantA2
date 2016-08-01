@@ -8,8 +8,12 @@
                 <h3>Welcome </h3>
                 <h1>Decent Restaurant</h1>
                 <hr>
-                <a href="#work" class="smoothScroll btn btn-danger">Menu</a>
-                <a href="#contact" class="smoothScroll btn btn-default">Contact</a>
+                @*<ul>
+                    <li>@Html.ActionLink("Menu", "Index", "Foods", null, new { @class = "smoothScroll" })</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home", null, new { @class = "smoothScroll" })</li>
+                    </ul>*@
+                <a href="~/Foods" class="smoothScroll btn btn-danger">Menu</a>
+                <a href="~/Home/Contact" class="smoothScroll btn btn-default">Contact</a>
             </div>
         </div>
     </div>
